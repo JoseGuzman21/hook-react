@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
-import { RealExampleRef } from './components/04-useRef/RealExampleRef';
+// import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 import './../src/components/02-useEffect/effects.css'
+// import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
+import { Memorize } from './components/06-memos/Memorize';
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 // import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
@@ -10,7 +12,7 @@ import './../src/components/02-useEffect/effects.css'
 // import { HookApp } from './HookApp';
 
 ReactDOM.render(
-    <RealExampleRef />,
+    <Memorize />,
   document.getElementById('root')
 );
 

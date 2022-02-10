@@ -9,7 +9,7 @@ export const RealExampleRef = () => {
         <h1>Real example ref</h1>
         <hr />
 
-        <button className="btn btn-primary" onClick={() => setShow(!show)}>
+        <button className="btn btn-primary mb-2" onClick={() => setShow(!show)}>
             Show/Hide
         </button>
 
