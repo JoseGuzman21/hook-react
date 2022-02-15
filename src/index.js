@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 import './../src/components/02-useEffect/effects.css'
-import { CallBackHook } from './components/06-memos/CallBackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
 // import { Memorize } from './components/06-memos/Memorize';
@@ -14,7 +14,7 @@ import { CallBackHook } from './components/06-memos/CallBackHook';
 // import { HookApp } from './HookApp';
 
 ReactDOM.render(
-    <CallBackHook />,
+    <Padre />,
   document.getElementById('root')
 );
 
