@@ -9,8 +9,6 @@ export const Memorize = () => {
 
     const [show, setShow] = useState(true);
 
-    console.log(state)
-
     return (
         <div>
             <h1>  Counter: <small> <Small value={state} /> </small> </h1>

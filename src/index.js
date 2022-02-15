@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
-import './../src/components/02-useEffect/effects.css'
-import { Padre } from './components/07-tarea-memo/Padre';
+// import './../src/components/02-useEffect/effects.css'
+// import { Padre } from './components/07-tarea-memo/Padre';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
 // import { Memorize } from './components/06-memos/Memorize';
@@ -14,7 +15,7 @@ import { Padre } from './components/07-tarea-memo/Padre';
 // import { HookApp } from './HookApp';
 
 ReactDOM.render(
-    <Padre />,
+    <TodoApp />,
   document.getElementById('root')
 );
 
@@ -22,3 +23,5 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
+
+// import './components/08-useReducer/intro-reducer'
