@@ -11,12 +11,14 @@ export const AppRouter = () => {
         <Router>
             <div>
                 <NavBar />
-                <Routes>
-                    <Route exact path="/" element={<HomeScreen />} />
-                    <Route exact path="/about" element={<AboutScreen />} />
-                    <Route exact path="/login" element={<LoginScreen />} />
-                    <Route path="*" element={<Navigate to="/" />} />
-                </Routes>
+                <div className="container">
+                    <Routes>
+                        <Route exact="true" path="/" element={<HomeScreen />} />
+                        <Route exact="true" path="/about" element={<AboutScreen />} />
+                        <Route exact="true" path="/login" element={<LoginScreen />} />
+                        <Route path="*" element={<Navigate to="/" />} />
+                    </Routes>
+                </div>
             </div>
         </Router>
     )
